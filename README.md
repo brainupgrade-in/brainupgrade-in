@@ -75,6 +75,18 @@ It discovers companies across public sources, enriches each one with contacts, t
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🧭 [AgentGrow](https://github.com/brainupgrade-in/agentgrow-chrome-extension)
+**An open-source AI browser assistant that asks before it acts**
+
+A Chrome extension (Manifest V3) that fills forms, drafts emails, summarises pages and extracts data by reading and writing the live DOM. You bring your own LLM: OpenAI, Anthropic, Gemini, Groq, Ollama, or any OpenAI-compatible endpoint. By default it asks you to approve every click or form fill, and a visible Stop button appears whenever it controls the tab. API keys are encrypted at rest with AES-GCM-256 and it sends no telemetry.
+
+`TypeScript` `Chrome MV3` `Any LLM` · 🔐 Reproducible builds with published SHA-256 · 🌐 **[Homepage](https://devops.gheware.com/agentgrow/)**
+
+</td>
+</tr>
 </table>
 
 ### 📚 Learn agentic AI from working code
