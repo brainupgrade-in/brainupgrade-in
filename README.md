@@ -28,13 +28,13 @@ My rule is simple: if it isn't deployed, observed and tested, it isn't finished.
 
 ## 🚀 Featured projects
 
-> ☁️ **In production on Google Cloud:** Diabet Care and finBuddy are live apps with real users. Both store their data in **Cloud Firestore** and sign users in with **Google OAuth**.
+> ☁️ **In production on Google Cloud:** DiabetCare DMS and finBuddy are live apps with real users. Both store their data in **Cloud Firestore** and sign users in with **Google OAuth**.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🩸 [Diabet Care: Diabetes Management Platform](https://health.gheware.com)
+### 🩸 [DiabetCare DMS](https://health.gheware.com)
 **Finds the hidden causes of blood-sugar spikes in each patient's own data**
 
 It correlates continuous glucose monitor (CGM) readings with sleep (Google Fit), exercise (Strava) and photo-logged meals. A self-hosted Qwen3.6 model runs six statistical correlation models and turns them into specific, data-referenced recommendations instead of generic advice. It shows medical-grade Ambulatory Glucose Profile and Time-in-Range views, with full data export and one-click deletion.
