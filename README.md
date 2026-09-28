@@ -175,15 +175,12 @@ Each layer of a production agent, and what I use for it:
 flowchart LR
     G([🎯 Goal]) --> P[🧠 Plan]
     P --> A[🔧 Act<br/>tools · MCP]
-    A --> O[👀 Observe<br/>results · memory]
+    A --> O[👀 Observe]
     O --> E{✅ Evaluate}
     E -- not yet --> P
-    E -- risky --> H[🙋 Human approval]
+    E -- risky --> H[🙋 Human<br/>approval]
     H --> A
     E -- done --> D([📦 Deliver])
-    P -.-> T[(🔭 Traces · tokens · cost)]
-    A -.-> T
-    E -.-> T
 ```
 
 | Principle | In practice |
