@@ -28,7 +28,33 @@ My rule is simple: if it isn't deployed, observed and tested, it isn't finished.
 
 ## 🚀 Featured projects
 
+> ☁️ **In production on Google Cloud:** Diabet Care and finBuddy are live apps with real users. Both store their data in **Cloud Firestore** and sign users in with **Google OAuth**.
+
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🩸 [Diabet Care: Diabetes Management Platform](https://health.gheware.com)
+**Finds the hidden causes of blood-sugar spikes in each patient's own data**
+
+It correlates continuous glucose monitor (CGM) readings with sleep (Google Fit), exercise (Strava) and photo-logged meals. A self-hosted Qwen3.6 model runs six statistical correlation models and turns them into specific, data-referenced recommendations instead of generic advice. It shows medical-grade Ambulatory Glucose Profile and Time-in-Range views, with full data export and one-click deletion.
+
+`Python` `Flask` `Cloud Firestore` `Google Fit` `Qwen3.6 on vLLM` `Kubernetes`
+🌐 **[Live app](https://health.gheware.com)** · 📝 [Patient education blog](https://health.gheware.com/blog)
+
+</td>
+<td width="50%" valign="top">
+
+### 💹 [finBuddy: Agentic AI for Personal Wealth](https://trade.gheware.com)
+**One AI-organised view of a scattered Indian stock portfolio**
+
+You sign in with Google and link Zerodha with **read-only** OAuth. It then builds one dashboard of holdings, P&L and allocation, with AI portfolio-health checks, risk and concentration alerts, AI stock discovery and a portfolio chat. Data is AES-256 encrypted and stays in **Google Cloud Mumbai**. It never places trades and is explicitly not investment advice.
+
+`Spring Boot` `React` `Cloud Firestore` `Redis` `Claude` `Zerodha Kite`
+🌐 **[Live app](https://trade.gheware.com)** · 📝 [Investor blog](https://trade.gheware.com/blog)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -141,6 +167,7 @@ My training organisation publishes the course material I deliver to enterprise e
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
 <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-Firestore-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
 <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
 
