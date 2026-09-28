@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Agent loop: goal, plan, act with tools, observe, evaluate; loop back if not done, ask a human if risky, deliver when done">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b18"/><stop offset="0.6" stop-color="#141d45"/><stop offset="1" stop-color="#0c3350"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9fb0d9"/></marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/><rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+
+<text x="40" y="48" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7aa7ff" letter-spacing="3">THE PRODUCTION AGENT LOOP</text>
+<rect x="40" y="130" width="120" height="50" rx="25" fill="#0b1020" stroke="#9fb0d9" stroke-width="2.5"/><text x="100" y="162" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">🎯 Goal</text>
+<rect x="200" y="120" width="150" height="70" rx="12" fill="#0b1020" stroke="#4285F4" stroke-width="2.5"/><text x="275.0" y="151.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff">🧠 Plan</text><text x="275.0" y="174.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#c9d4ff">reason · decompose</text>
+<rect x="390" y="120" width="150" height="70" rx="12" fill="#0b1020" stroke="#EA4335" stroke-width="2.5"/><text x="465.0" y="151.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff">🔧 Act</text><text x="465.0" y="174.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#c9d4ff">tools · MCP · APIs</text>
+<rect x="580" y="120" width="150" height="70" rx="12" fill="#0b1020" stroke="#34A853" stroke-width="2.5"/><text x="655.0" y="151.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff">👀 Observe</text><text x="655.0" y="174.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#c9d4ff">results · memory</text>
+<polygon points="845,103.0 920,155.0 845,207.0 770,155.0" fill="#0b1020" stroke="#FBBC05" stroke-width="2.5"/><text x="845" y="162.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">✅ Evaluate</text>
+<rect x="1010" y="130" width="150" height="50" rx="25" fill="#0b1020" stroke="#34A853" stroke-width="2.5"/><text x="1085" y="162" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">📦 Deliver</text>
+<rect x="560" y="262" width="190" height="56" rx="12" fill="#0b1020" stroke="#D97757" stroke-width="2.5"/><text x="655.0" y="297.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff">🙋 Human approval</text>
+<path d="M160 155.0 L198 155.0 M350 155.0 L388 155.0 M540 155.0 L578 155.0 M730 155.0 L768 155.0 M920 155.0 L1008 155.0" stroke="#9fb0d9" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+<text x="964" y="145.0" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#9fe0b0">done</text>
+<path d="M845 103.0 C 845 10, 275 10, 275 118" stroke="#FBBC05" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="1s" repeatCount="indefinite"/></path>
+<text x="560" y="72" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#FBBC05">not done yet → plan again</text>
+<path d="M845 207.0 C 845 290, 800 290, 752 290" stroke="#D97757" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+<text x="857" y="235.0" font-family="Consolas, Menlo, monospace" font-size="13" fill="#D97757">risky</text>
+<path d="M560 290 C 465 290, 465 250, 465 192" stroke="#D97757" stroke-width="2" fill="none" marker-end="url(#ar)"/>
+<text x="455" y="272" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="13" fill="#D97757">approved</text>
+<path id="mp" d="M100 155.0 L1085 155.0" fill="none"/><circle r="6" fill="#ffffff"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#mp"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/></circle>
+<text x="1160" y="318" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="13" fill="#9fb0d9">every step traced · tokens · latency · cost</text>
+</svg>

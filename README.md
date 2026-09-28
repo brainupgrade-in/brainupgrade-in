@@ -171,17 +171,9 @@ Each layer of a production agent, and what I use for it:
 
 ## 🔁 How I build agents
 
-```mermaid
-flowchart LR
-    G([🎯 Goal]) --> P[🧠 Plan]
-    P --> A[🔧 Act<br/>tools · MCP]
-    A --> O[👀 Observe]
-    O --> E{✅ Evaluate}
-    E -- not yet --> P
-    E -- risky --> H[🙋 Human<br/>approval]
-    H --> A
-    E -- done --> D([📦 Deliver])
-```
+<p align="center">
+  <img src="assets/agent-loop.svg" alt="The production agent loop: goal, plan, act with tools and MCP, observe, evaluate. If not done, plan again; if risky, get human approval before acting; when done, deliver. Every step is traced." width="100%"/>
+</p>
 
 | Principle | In practice |
 |---|---|
