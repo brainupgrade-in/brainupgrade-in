@@ -1,35 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Brain Upgrade: I build AI agents that run in production">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#16204a"/>
-      <stop offset="1" stop-color="#0e3b5c"/>
+      <stop offset="0" stop-color="#070b18"/><stop offset="0.55" stop-color="#141d45"/><stop offset="1" stop-color="#0c3350"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4285F4"/>
-      <stop offset="0.33" stop-color="#34A853"/>
-      <stop offset="0.66" stop-color="#FBBC05"/>
-      <stop offset="1" stop-color="#EA4335"/>
+      <stop offset="0" stop-color="#4285F4"/><stop offset="0.33" stop-color="#34A853"/><stop offset="0.66" stop-color="#FBBC05"/><stop offset="1" stop-color="#EA4335"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-    </pattern>
+    <radialGradient id="glow"><stop offset="0" stop-color="#7aa7ff" stop-opacity="0.35"/><stop offset="1" stop-color="#7aa7ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-  <!-- agent graph motif -->
-  <g stroke="#7aa7ff" stroke-opacity="0.45" stroke-width="2" fill="none">
-    <path d="M900 90 L1010 150 L900 210 M1010 150 L1110 95 M1010 150 L1110 205"/>
-  </g>
-  <g fill="#0b1020" stroke-width="3">
-    <circle cx="900" cy="90" r="16" stroke="#4285F4"/>
-    <circle cx="900" cy="210" r="16" stroke="#34A853"/>
-    <circle cx="1010" cy="150" r="24" stroke="#FBBC05"/>
-    <circle cx="1110" cy="95" r="16" stroke="#EA4335"/>
-    <circle cx="1110" cy="205" r="16" stroke="#4285F4"/>
-  </g>
-  <text x="60" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Brain Upgrade</text>
-  <text x="60" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#c9d4ff">Production-grade agentic AI: built, deployed, and taught</text>
-  <rect x="60" y="188" width="360" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="60" y="236" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#9fb0d9">LangGraph · RAG · MCP · Kubernetes · Observability · Rajesh Gheware</text>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <circle cx="985" cy="160" r="120" fill="url(#glow)"/>
+  <g fill="none"><path id="e0" d="M985 160 L850 72" stroke="#4285F4" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1.2s" repeatCount="indefinite"/></path><path id="e1" d="M985 160 L1120 72" stroke="#EA4335" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1.2s" repeatCount="indefinite"/></path><path id="e2" d="M985 160 L850 248" stroke="#34A853" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1.2s" repeatCount="indefinite"/></path><path id="e3" d="M985 160 L1120 248" stroke="#FBBC05" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1.2s" repeatCount="indefinite"/></path></g>
+  <circle r="4.5" fill="#4285F4"><animateMotion dur="2.4s" begin="-0.1s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#e0"/></animateMotion></circle><circle r="4.5" fill="#EA4335"><animateMotion dur="2.4s" begin="-0.7s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#e1"/></animateMotion></circle><circle r="4.5" fill="#34A853"><animateMotion dur="2.4s" begin="-1.3s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#e2"/></animateMotion></circle><circle r="4.5" fill="#FBBC05"><animateMotion dur="2.4s" begin="-1.9s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#e3"/></animateMotion></circle>
+  <circle cx="850" cy="72" r="17" fill="#0b1020" stroke="#4285F4" stroke-width="3"/><circle cx="850" cy="72" r="5" fill="#4285F4"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="-0.1s" repeatCount="indefinite"/></circle><circle cx="1120" cy="72" r="17" fill="#0b1020" stroke="#EA4335" stroke-width="3"/><circle cx="1120" cy="72" r="5" fill="#EA4335"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="-0.7s" repeatCount="indefinite"/></circle><circle cx="850" cy="248" r="17" fill="#0b1020" stroke="#34A853" stroke-width="3"/><circle cx="850" cy="248" r="5" fill="#34A853"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="-1.3s" repeatCount="indefinite"/></circle><circle cx="1120" cy="248" r="17" fill="#0b1020" stroke="#FBBC05" stroke-width="3"/><circle cx="1120" cy="248" r="5" fill="#FBBC05"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="-1.9s" repeatCount="indefinite"/></circle>
+  <circle cx="985" cy="160" r="30" fill="#0b1020" stroke="url(#accent)" stroke-width="4"/>
+  <circle cx="985" cy="160" r="30" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2"><animate attributeName="r" values="30;46" dur="2.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="985" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">AI</text>
+  <text x="985" y="212" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="#ffffff">supervisor</text>
+  <text x="850" y="44" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="#c9d4ff">planner</text><text x="1120" y="44" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="#c9d4ff">tools · MCP</text><text x="850" y="286" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="#c9d4ff">memory · RAG</text><text x="1120" y="286" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" fill="#c9d4ff">evaluator</text>
+  <text x="60" y="68" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7aa7ff" letter-spacing="3">AGENTIC AI</text>
+  <text x="60" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Brain Upgrade</text>
+  <text x="60" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="25" fill="#c9d4ff">I build AI agents that run in production</text>
+  <rect x="60" y="194" width="380" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="60" y="238" font-family="Consolas, Menlo, monospace" font-size="17" fill="#9fe0b0">while not done: <tspan fill="#ffffff">plan → act → observe → evaluate</tspan><tspan fill="#9fe0b0"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▍</tspan></text>
+  <text x="60" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#9fb0d9">Rajesh Gheware · LangGraph · MCP · RAG · Evals · Observability</text>
 </svg>
