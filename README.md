@@ -6,6 +6,7 @@
   <a href="https://devops.gheware.com"><img src="https://img.shields.io/badge/Website-devops.gheware.com-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="https://rajeshgheware.github.io"><img src="https://img.shields.io/badge/About-Rajesh%20Gheware-34A853?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal site"/></a>
   <a href="https://www.amazon.com/author/rajesh-gheware"><img src="https://img.shields.io/badge/Author-Agentic%20AI%20Book-FBBC05?style=for-the-badge&logo=amazon&logoColor=black" alt="Author page"/></a>
+  <a href="https://www.youtube.com/@ghewaredevopsai"><img src="https://img.shields.io/badge/YouTube-@ghewaredevopsai-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
   <a href="https://www.brainupgrade.in"><img src="https://img.shields.io/badge/Brain%20Upgrade-brainupgrade.in-EA4335?style=for-the-badge&logo=rocket&logoColor=white" alt="Brain Upgrade"/></a>
 </p>
 
